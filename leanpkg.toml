@@ -1,0 +1,9 @@
+[package]
+name = "alg_top"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.35.0"
+path = "src"
+timeout = 100   
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "773a7a4253335e5fadda5c4761f5c9fc00175e75"}
